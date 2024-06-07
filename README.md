@@ -9,10 +9,7 @@ To install this project, you have to run `npm install` in a terminal to install 
 
 ## Environment Variables
 
-To be able to use environment variables, this project makes use of [react-native-dotenv](https://www.npmjs.com/package/react-native-dotenv). You will have to create a `.env` file in the project's root and add any required variables you need. You will also have to tell TypeScript which variables did you add by editing 
-`config/types/env.d.ts`. This last step is required for react-native-dotenv to work property with TypeScript.
-
-You'll have to create a .env file in the project root, and copy the contents of `.env.dist` to it.
+To be able to use environment variables, create a file named `.env.local` and a variable with the name `EXPO_PUBLIC_API_URL` and using this format: `http://{your ip}:3000`
 
 ## Running the project
 
